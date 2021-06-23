@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>org.netopia.liferay.dms</groupId>
     <artifactId>NetopiaLiferayDms</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
@@ -21,6 +21,30 @@
         </plugins>
     </build>
     <packaging>jar</packaging>
+    <name>the liferay api dms uploader</name>
+    <description>A application used as an example on how to set up pushing
+        its components to the Central Repository.</description>
+    <url>https://github.com/karim-ui/NetopiaBORsu</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git://github.com/karim-ui/NetopiaBORsu.git</connection>
+        <developerConnection>scm:git:ssh://github.com:karim-ui/NetopiaBORsu.git</developerConnection>
+        <url>http://github.com/karim-ui/NetopiaBORsu</url>
+    </scm>
+    <developers>
+        <developer>
+            <name>abdelkarim imghi</name>
+            <email>abdelkarim.imghi@gmail.com</email>
+            <organization>Netopia</organization>
+            <organizationUrl>http://www.netopia.ma</organizationUrl>
+        </developer>
+    </developers>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
