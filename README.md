@@ -1,3 +1,9 @@
+
+
+
+
+
+
 int nbrEights(int amount, int giftees) {
 		for (int k = giftees; k >= 0; k--) {
 			int amount_remaining = amount - 8 * k;
